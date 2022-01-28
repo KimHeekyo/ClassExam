@@ -27,6 +27,5 @@ public class Car {
 		System.out.println(car2.carSpeed);
 		System.out.println(car1.carName + "의 최대속도는 " + car2.carSpeed + "입니다.");
 	}
-	
-	
+
 }

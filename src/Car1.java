@@ -25,12 +25,11 @@ public class Car1 {
 		cN=carName;
 		cS=carSpeed;
 	}
-	
-	public void speedup(int carSpeed) {
-		
-		
+	public void speedUp(int speed) {
+		carSpeed += speed;
 	}
+	public void speedDown(int speed) {
+		carSpeed -= speed;
 	
-	
-
+	}
 }

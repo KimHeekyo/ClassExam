@@ -12,6 +12,10 @@ public class Car1Test {
 		System.out.println(c2.getcarSpeed());
 		System.out.println(c3.getcarName() + "의 속도는 " + c3.getcarSpeed() + "입니다.");
 		
+		c1.speedUp(50);
+		System.out.println(c1.getcarSpeed()+c2.getcarSpeed());
+		
+		
 		
 	}
 
